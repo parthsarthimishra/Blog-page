@@ -1,0 +1,335 @@
+.navbar {
+    position:sticky;
+    top:0;
+    height: 10vh;
+    background-color: burlywood;
+    display:flex;
+	box-shadow: 0 2px 5px 0 rgb(0 0 0 / 16%), 0 2px 10px 0 rgb(0 0 0 / 12%);
+    z-index: 10000;
+    font-family: "TypoPRO Bebas Neue";
+        
+    }
+    
+    #img-logo {
+        height:5vh;
+        width:6vh;
+        margin-left:8vw;
+        margin-top: 1.5vh;
+    }
+    .right-nav {
+        display: flex;
+       
+        width:50vw;   
+        justify-content: flex-end;  
+        background-color: white;
+        font-family: "TypoPRO Bebas Neue";
+        
+    }
+    .hamburger{
+        display: none;
+        height:6vh;
+        width:7vh;
+        margin-top: 1vh; !important
+    }
+    .left-nav{
+        width:50vw; !important
+        left:0px;
+        background-color: white;
+    }
+    
+    .nav-elements {
+        margin:1vw;
+        text-decoration: none;
+		margin-top:3vh;
+        font-family: "TypoPRO Bebas Neue";
+        
+    }
+    a {
+        text-decoration: none;
+        color: black;
+    }
+    
+    #fourth {
+        margin-right: 8vw;  !important
+    }
+    #first {
+        margin-left: 12vw;
+    }
+
+/* GRID FROM HERE */
+.container-pro{
+    margin-left: 7vw;
+    margin-right: 7vw;
+}
+.grid-container {
+   margin-left: 5.8vw;
+   margin-top: 28px;
+    display:flex;
+   
+    
+    flex-wrap: wrap;
+   
+   
+}
+ 
+.item {
+    border: 1px solid rgba(0,0,0,.05);
+    margin: 1vh 2vh 4vh 2vh;
+     width:29%;
+     border: 1px solid rgba(0,0,0,.05)!important;
+     border-radius: 0.4rem 0.4rem 0 0!important;
+     box-shadow: 0 2px 5px 0 rgb(0 0 0 / 16%), 0 2px 10px 0 rgb(0 0 0 / 12%);
+     display: flex;
+     flex-direction: column;
+    
+     
+ }
+ 
+ #img-1 {
+    background-image: url(4.jpeg);
+    height:200px;
+    border-top: 1px solid rgba(0,0,0,.05)!important;
+    border-radius: 0.4rem 0.4rem 0 0!important;
+    width:auto;
+    background-position: center center; background-size: cover;
+}
+
+#img-2 {
+    background-image: url(3.png);
+    height:200px;
+    border-radius: 0.4rem 0.4rem 0 0!important;
+    width:auto;
+    background-position: center center; background-size: cover;
+}
+
+#img-3 {
+    background-image: url(5.png);
+    height:200px;
+    border-radius: 0.4rem 0.4rem 0 0!important;
+    width:auto;
+    background-position: center center; background-size: cover;
+}
+
+#img-4 {
+    background-image: url(1.jpeg);
+    height:200px;
+    border-radius: 0.4rem 0.4rem 0 0!important;
+    width:auto;
+    background-position: center center; background-size: cover;
+}
+
+#img-5 {
+    background-image: url(6.jpeg);
+    height:200px;
+    border-radius: 0.4rem 0.4rem 0 0!important;
+    width:auto;
+    background-position: center center; background-size: cover;
+
+}
+
+#img-6 {
+    background-image: url(2.png);
+    height:200px;
+    border-radius: 0.4rem 0.4rem 0 0!important;
+    width:auto;
+    background-position: center center; background-size: cover;
+}
+
+.name-blog {
+    border-bottom:1px solid grey;
+    font-weight: 700;
+    font-size: 1.28571429em;
+    font-family: Lato,'Helvetica Neue',Arial,Helvetica,sans-serif;
+    color: rgba(0,0,0,.85);
+    height: 55px;
+   padding-left:9px;
+   display: flex;
+   align-items: center;
+   
+   
+}
+
+.name-date {
+    max-width: 100%;
+    min-height: 0; !important
+    position: static;
+    background:0 0;
+    margin: 0 0;
+  bottom:0;
+   width:auto ;
+   height: max-content;
+   padding : 12px;
+   color: rgba(0,0,0,.4);
+   font-family: Lato,'Helvetica Neue',Arial,Helvetica,sans-serif;
+    
+}
+.name {
+    display: inline-block;
+    float: left;
+}
+.date {
+    float:right;
+}
+
+.nav-elements :hover {
+    color:rgba(0,0,0,0.25);
+}
+
+.item :hover {
+    transform:translate(0%,-1.5%);
+}
+
+.nav-elements :active{
+    border-bottom: solid black;
+}
+
+.footer-end {
+    background-color: #263146;; !important
+    font-family: Lato,'Helvetica Neue',Arial,Helvetica,sans-serif;
+    margin-top:16px;
+}
+.null {
+    margin-left:8vw;
+    color:white;
+    margin-top:16px;
+    padding:4px;
+    background-color: #263146;
+    font-family: Lato,'Helvetica Neue',Arial,Helvetica,sans-serif;
+}
+
+.highlighted {
+    padding:8px;
+    border-bottom: 2px solid black;
+}
+.medium-icon {
+    text-align: center;
+    margin:18px;
+    font-size: large;
+}
+
+/*FOR MEDIA QUERY OF 1200 */
+
+@media all and (max-width:1200px){
+    .grid-container {
+        margin-left: 6vw;
+        margin-top: 28px;
+         display:flex;
+        
+         
+         flex-wrap: wrap;
+        
+        
+     }
+      
+     .item {
+         border: 1px solid rgba(0,0,0,.05);
+         margin: 1vh 2vh 4vh 2vh;
+          width:44%;
+          border: 1px solid rgba(0,0,0,.05)!important;
+          border-radius: 0.4rem 0.4rem 0 0!important;
+          box-shadow: 0 2px 5px 0 rgb(0 0 0 / 16%), 0 2px 10px 0 rgb(0 0 0 / 12%);
+          display: flex;
+          flex-direction: column; 
+      }
+
+      .name-blog {
+        border-bottom:1px solid grey;
+        font-weight: 700;
+        font-size: 1.28571429em;
+        font-family: Lato,'Helvetica Neue',Arial,Helvetica,sans-serif;
+        color: rgba(0,0,0,.85);
+        height: 55px;
+       padding-left:9px;
+       display: flex;
+       align-items: center;
+       
+    }
+    
+    .name-date {
+        max-width: 100%;
+        min-height: 0; !important
+        position: static;
+        background:0 0;
+        margin: 0 0;
+      bottom:0;
+       width:auto ;
+       height: max-content;
+       padding : 12px;
+        
+    }
+}
+
+/*FOR MEDIA QUERY OF 700 */
+
+@media all and (max-width:700px){
+    .hamburger {
+        background-color: white;
+        display: inline-block;
+        font: normal normal normal 14px/1 FontAwesome;
+        font-size: inherit;
+        text-rendering: auto;
+        -webkit-font-smoothing: antialiased;
+        width:50vw;
+        font-size: 33px;
+       text-align: right;
+       padding-right: 8vw;
+       padding-top: 5px;;
+    }
+    .right-nav{
+        display: none;
+        
+        
+    }
+    .navbar {
+        background-color: white;
+        width:100vw;
+    }
+
+    .grid-container {
+        margin-left: 0vw;
+        margin-top: 28px;
+         display:flex;
+        
+         
+         flex-wrap: wrap;
+        
+        
+     }
+      
+     .item {
+         border: 1px solid rgba(0,0,0,.05);
+         margin: 1vh 2vh 4vh 2vh;
+          width:100%;
+          border: 1px solid rgba(0,0,0,.05)!important;
+          border-radius: 0.4rem 0.4rem 0 0!important;
+          box-shadow: 0 2px 5px 0 rgb(0 0 0 / 16%), 0 2px 10px 0 rgb(0 0 0 / 12%);
+          display: flex;
+          flex-direction: column; 
+      }
+
+      .name-blog {
+        border-bottom:1px solid grey;
+        font-weight: 700;
+        font-size: 1.28571429em;
+        font-family: Lato,'Helvetica Neue',Arial,Helvetica,sans-serif;
+        color: rgba(0,0,0,.85);
+        height: 55px;
+       padding-left:9px;
+       display: flex;
+       align-items: center;
+       
+    }
+    
+    .name-date {
+        max-width: 100%;
+        min-height: 0; !important
+        position: static;
+        background:0 0;
+        margin: 0 0;
+      bottom:0;
+       width:auto ;
+       height: max-content;
+       padding : 12px;
+        
+    }
+}
